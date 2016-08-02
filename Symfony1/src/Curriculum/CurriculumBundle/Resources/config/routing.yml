@@ -1,0 +1,7 @@
+curriculum_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CurriculumBundle:Default:index }
+
+test:
+    path:     /test
+    defaults: { _controller: CurriculumBundle:Test:ajout }

@@ -1,0 +1,14 @@
+curriculum:
+    resource: "@CurriculumBundle/Resources/config/routing.yml"
+    prefix:   /curriculum
+
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+test_store:
+    resource: "@TestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
